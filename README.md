@@ -12,6 +12,19 @@ I believe this project is valuable because it offers a great way to turn a child
 
 ## Hardware Design
 
+#### Components list (could be modified): 
+- 1x ESP32 DevKit V1
+- 1x Dual H-Bridge Motor Driver L298N
+- 4x TT Gear Motors with Wheels (1:48 Gear Ratio)
+- 2x Li-Ion 18650 Batteries, 3.7V, 2200mAh (powering the L298N driver and the ESP32 board)
+- 1x Li-Ion 18650 Battery Case with On/Off Switch
+- 1x HC-SR04 Ultrasonic Sensor/GP2Y0A21YK0F Infrared Distance Sensor (obstacle avoidance)
+- 1x MicroSD Module (storing sounds files)
+- 1x Passive Buzzer (3.3V) (playing horn & acceleration sounds)
+- 4x LEDs (2x White - headlights, 2x Red - taillights)
+- 4x Resistors (330 Ohm)
+- Jumper Wires
+
 ## Software Design
 
 I will be using PlatformIO IDE for VSCode.
