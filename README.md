@@ -68,7 +68,6 @@ I will be using PlatformIO IDE for VSCode.
 - 11.12.2024 - 3D printed the chassis of the car & soldered the wires of the IR distance sensor so they can be used with jumpers
 - 12.12.2024 - 3D printed the mounting brackets for the motors & made 2x Y female jumpers & soldered the LEDs with resistors and jumpers
 - 13.12.2024 - tested the LEDs, MicroSD, Speaker with demo codes
-- 15.12.2024 - bought M3 screws and nuts then mounted the motors on the chassis and verified the car's look by attaching its body
-
+- 15.12.2024 - bought M3 screws and nuts then mounted the motors on the chassis and verified the car's look by attaching its body:  <br><br><img src="https://github.com/user-attachments/assets/495706b2-3ac9-4ed4-bee5-4a270597b945" width=350 height=500>
 
 ## Bibliography/Resources
