@@ -18,7 +18,7 @@ I believe this project is valuable because it offers a great way to turn a child
 
 - It can be controlled via Wi-Fi, either on a phone or a laptop. 
 - It uses 4 TT Gear Motors connected to the L298N Driver Module, which is powered by 2x Li-Ion 18650 batteries. The driver uses 6 pins of the ESP32, 2 of which need to be connected to PWM pins (EN1 and EN2 pins, which control the speed of the motors). As a note, the first 4 pins of the board from the left side (34, 35, 36, 39) are input only pins and can't be configured as output, so I used the pins starting from the next available one (32). 
-- Due to the 5V regulator of the module, it can output 5V, which is used not only for the ESP32 board, but also for other modules. 
+- Due to the 5V regulator of the L298N Driver Module, it can output 5V, which is used not only for the ESP32 board, but also for other modules. 
 - Its steering works similarly to the tank steering system (i.e. accelerating one side while the opposite is standing still or reversing). 
 - It uses the GP2Y0A21YK0F Infrared Distance Sensor for obstacle avoidance (i.e. it will reverse when it detects a potential collision), which is connected to ADC channel 1 (pin 35). As a note, ADC channel 2 is used by the Wi-Fi driver of the ESP32, so those pins can't be used for this purpose.
 - It has a speaker attached to it, so it can play different sounds (horn, acceleration etc.). In order to do so, the microcontroller is connected to a Mini Audio Amplifier based on PAM8403 using DAC1 (pin 25) and, in order to store sounds files, also communicates with a MicroSD module using SPI (pins 5 - CS, 18 - SCK, 19 - MISO, 23 - MOSI).
@@ -69,5 +69,13 @@ I will be using PlatformIO IDE for VSCode.
 - 12.12.2024 - 3D printed the mounting brackets for the motors & made 2x Y female jumpers & soldered the LEDs with resistors and jumpers
 - 13.12.2024 - tested the LEDs, MicroSD, Speaker with demo codes
 - 15.12.2024 - bought M3 screws and nuts then mounted the motors on the chassis and verified the car's look by attaching its body:  <br><br><img src="https://github.com/user-attachments/assets/495706b2-3ac9-4ed4-bee5-4a270597b945" width=350 height=500>
+
+### Demos
+
+#### Horn and acceleration sounds
+[![demo-horn-and-acceleration](https://img.youtube.com/vi/Tm6jwe4OXqM/0.jpg)](https://www.youtube.com/watch?v=Tm6jwe4OXqM)
+
+#### Motors and wheels
+[![demo-motors-and-wheels](https://img.youtube.com/vi/tk6A-mb6Bfo/0.jpg)](https://www.youtube.com/watch?v=tk6A-mb6Bfo)
 
 ## Bibliography/Resources
