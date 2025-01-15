@@ -227,6 +227,12 @@ Car Interior            |  Car Interior |  Car Interior
 
 ## Conclusions
 
+I am truly pleased with the results I achieved and proud that I managed to implement everything I set out to do from the very beginning. This project has been a journey filled with diverse experiences - from revisiting 3D modeling and eagerly waiting for hours by the 3D printer, to applying concepts learned in the lab, overcoming challenges, and even exploring new ideas.
+
+It’s incredibly satisfying to see your ideas come to life, but it’s even more rewarding when the final result exceeds your expectations. This project was not only fun but also gave me the chance to learn a lot, improve my skills, and turn a simple idea into something real. 
+
+I guess I found myself a new favorite toy - my inner child couldn't be happier!
+
 ## Logs
 
 - 24.11.2024 - ordered the components
